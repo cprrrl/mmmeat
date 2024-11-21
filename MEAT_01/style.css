@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&family=PT+Sans+Caption:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Libre+Barcode+39&family=PT+Sans+Caption:wght@400;700&display=swap');
+
+.keania-one-regular {
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-barcode-39-regular {
+    font-family: "Libre Barcode 39", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+*{
+    margin: 0;padding: 0;
+    font-family: "Bahnschrift" ;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./assets/paperboard-carton-surface-beige-plain\ 3.png);
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+    width: 100%;
+    
+}
+.logo_link{
+    text-decoration: none;
+}
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 122px;
+    margin-right: 122px;
+
+}
+
+.logo {
+    font-family:  "Keania One";
+    font-size: 32px;
+    color: #B32C28;
+}
+.nav_main {
+   font-size: 20px;
+}
+
+.line_nav {
+    width: 1px;height: 24px;
+    background-color: #000000;
+}
+.nav_list {
+    width: 466px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.list_item {
+    text-decoration: none;
+    list-style: none;
+}
+.list_item:link {
+    color: #000000;
+}
+.list_item:visited {
+    color: #000000;
+}
+.current_loc {
+    text-decoration: underline solid #000;
+}
+
+.main_about_us{
+    background-image: url(./assets/Group\ 10.png);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 1000px;
+ 
+}
+
+.stock_subsec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.stock_section {
+    /* background-image: url(./assets/raw-beef-is-chopped-into-prepared-pieces-such-as-steak_46073-367.png); */
+background-size: cover;
+    width: 1996px;
+    height: 183px;
+    position: relative;
+    margin-top: 37px; 
+    margin-left: 122px;
+    margin-right: 122px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slider {
+    position: relative;
+    width: 1196px;
+    height: 183px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 60px;
+    font-size: 36px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+   width: 100%;
+    height: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color: white;
+}
+
+.slide:nth-child(1) { background-image: url(./assets/raw-beef-is-chopped-into-prepared-pieces-such-as-steak_46073-367.png); }
+.slide:nth-child(2) {background-image: url(./assets/meat_slide_2.png); }
+.slide:nth-child(3) { background-image: url(./assets/meat_3_slider.png); }
+
+.active {
+    display: block;
+}
+
+.stock_img{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   background-image: url(./assets/raw-beef-is-chopped-into-prepared-pieces-such-as-steak_46073-367.png);
+   min-width: 500px;
+
+}
+.stock_img_2{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.stock_img_3{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.scotch_1 {
+    position: absolute;
+    top: -18px;
+   left: -0.5px;
+}
+.scotch_2 {
+    position: absolute;
+    right: -2.5px;
+    top: -18px;
+  transform: rotate(180deg);
+  
+}
+.stock_title{
+    font-size: 36px;
+    font-weight: 700;
+  font-weight: 700;
+  color: white;
+  margin-right: 21px;
+}
+.stock_text{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.partners_section{
+display: flex;
+justify-content: center;
+margin-top: 149px;
+flex-direction: column;
+align-items: center;
+margin-bottom: 105px;
+}
+.partners_subtitle{
+    font-size: 14px;
+}
+.partners_title {
+    font-size: 48px;
+}
+.part_paper{
+    width: 264px;
+    height: 299px;
+    margin-top: 37px;
+    position: relative;
+  
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.partners_info{
+margin-top: 35px;
+    position: absolute;
+}
+
+.company_type{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.company_name{
+    font-size: 20px;
+}
+.part_line{
+    height: 1px;
+    width: 224px;
+    background: #000;
+    margin-top: 30px;
+}
+.part_total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.part_total_text{
+    font-weight: 700;
+}
+.part_barcode{
+    font-family: "Libre Barcode 39" ;
+    font-size: 36px;
+   line-height: 100%;
+position: absolute;
+   text-align:center;
+   margin-top: 10px;
+}
+.about_us_title{
+    font-size: 48px;
+    margin-top: 150px;
+}
+.abt_paper_2 {
+    background-image: url(./assets/partners_paper.png);
+    margin-top: 50px;
+    margin-bottom: 184px;
+    position: relative;
+    width: 264px;
+    height: 317px
+    
+}
+.about_us_info {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+position: absolute;
+
+
+}
+.numbers {
+    margin-top: 10px;
+}
+.big_info {
+    font-size: 20px;
+}
+.barcode_team {
+    margin-top: 10px;
+}
+/* каталог */
+.catalogue_section{
+    margin-top: 65px;
+    margin-bottom: 65px;
+    margin-left: 122px;
+    margin-right: 122px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.catalogue_item {
+ background-image: url(./assets/бумажка_каталог.png);
+ width: 389px;
+    margin-bottom: 30px;
+   
+    display: flex;
+}
+.catalogue_item_photo img{
+    width: 200px;
+    height: 200px;
+}.tovar_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.name_n_cost{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.line_cat{
+    width: 164px;
+    height: 1px;
+    background-color: #000;
+}
+.count_n_number{
+    display: flex;
+    justify-content: space-between;
+}
+
+.count_variants{
+    display: flex;
+  width: 105px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 20px;
+ 
+}
+.variant_number{
+    line-height: 0%
+    
+  
+}
+.arrow_right{
+    transform: rotate(180deg);
+    height: 20px;
+}
+.catalogue_buy{
+    background-color: #B32C28;
+    color: white;
+    width: 104px;
+    height: 24px;
+    border-style: none;
+    margin-top: 20px;
+
+}
+
+/* корзина */
+.main_basket{
+    margin-top: 60px;
+    margin-left: 122px;
+    margin-right: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+.basket_title{
+    font-size: 32px;
+}
+.choose_all{
+    display: flex;
+    align-items: center;
+}
+.checked{
+    margin-right: 15px;
+}
+.basket_list{
+    margin-top: 70px;
+}
+.basket_list_item{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.basket_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.basket_item_line{
+    width: 670px;
+    height: 1px;
+    background-color: #000000;
+}
+.count_n_cost_basket{
+    display: flex;align-items: center;
+}
+.basket_item_cost{
+    margin-left: 40px;
+    font-weight: 700;
+}
+/* offer */
+.offer_basket{
+ background-image: url(./assets/offer_basket.png);
+    width: 351px;
+    height: 432px;
+    position: relative;
+
+}
+.offer_img_box{
+    position: relative;
+}
+.offer_text{
+    position: absolute;
+  
+ margin-left: 31px;
+ margin-right: 31px;
+   margin-top: 30px;
+}
+.delivery_title{
+    font-size: 20px;
+    margin-bottom: 19px;
+}
+.del_check{
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+}
+.del_status{
+    margin-right: 8px;
+}
+.date_del{
+    color: #B32C28;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.warning_cash{
+    color: #9C9C9C;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.line_delivery{
+    background-color: #000000;
+    height: 1px;
+    width: 285px;
+}
+.tovar_counting{
+    color: #9C9C9C;
+    font-size: 14px;
+    margin-top: 14px;
+}
+.total_del{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.order_del{
+    width: 285px;
+    height: 40px;
+    border-style: none;
+    background-color: #000;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.agree_w_rules{
+    color:#9C9C9C ;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.checked_rules{
+    margin-right: 12px;
+}
+.personal_data{
+    color:#9C9C9C ;
+    display: flex;
+    align-items: start;
+    font-size: 14px;
+    margin-top: 27px;
+}
+.exc{
+    margin-right: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-image: url(./assets/paperboard-carton-surface-beige-plain\ 3.png);
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+
+}
+
+.d{
+    margin-left: 122px;
+    margin-right: 122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.adress{
+    text-align: end;
+}
+.footer_basket{
+    margin-top: 256px;
+}
